@@ -60,3 +60,7 @@ button:hover {
   color: black;
   background: #fff;
 }
+.caption {
+  padding-left: 14px;
+  font-size: small;
+}
