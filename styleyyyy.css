@@ -42,7 +42,7 @@ ul {
 a {
   color: black;
 }
-button {
+.btn {
   border-radius: 2px;
   margin: 0;
   display: block;
@@ -55,7 +55,8 @@ button {
   text-decoration: none;
   transition: all 200ms ease;
 }
+
 button:hover {
-  color: #fff;
-  background: #5e41a7;
+  color: black;
+  background: #fff;
 }
