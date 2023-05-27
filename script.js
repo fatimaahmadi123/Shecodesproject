@@ -81,7 +81,7 @@ function showTemperaturelocation(response) {
   windy.innerHTML = wind;
 }
 
-function last(event) {
+function clicking(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(function retrievePosition(position) {
     let latitude = position.coords.latitude;
@@ -96,4 +96,4 @@ function last(event) {
 }
 
 let button = document.querySelector("#mylocation");
-button.addEventListener("click", last);
+button.addEventListener("click", clicking);
