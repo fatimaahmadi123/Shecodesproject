@@ -32,6 +32,7 @@ function search(event) {
 
 function searchCity(city) {
   let apiKey = "7ed26a6948c661d05fafe7355b41b2ec";
+
   let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
 
