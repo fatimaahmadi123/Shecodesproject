@@ -43,6 +43,9 @@ ul {
   margin: 0%;
   padding: 0%;
 }
+li {
+  text-transform: capitalize;
+}
 a {
   color: black;
 }
