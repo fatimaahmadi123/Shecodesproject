@@ -1,6 +1,10 @@
-body {
-  margin: 30px 270px;
+.weather-app {
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  margin-top: 50px;
 }
+
 h1 {
   color: #5e41a7;
   font-size: 40px;
@@ -61,6 +65,5 @@ button:hover {
   background: #fff;
 }
 .caption {
-  padding-left: 14px;
   font-size: small;
 }
