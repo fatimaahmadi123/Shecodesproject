@@ -24,7 +24,7 @@ time.innerHTML = `${day} ${hours}:${minutes}`;
 function search(event) {
   event.preventDefault();
   let cityElement = document.querySelector("#city");
-  cityInput = document.querySelector("#city-input");
+  let cityInput = document.querySelector("#city-input");
   cityElement.innerHTML = cityInput.value;
 
   searchCity(cityInput.value);
